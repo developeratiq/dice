@@ -16,13 +16,13 @@ function App() {
 
 
   return (
-    <>
+    <main className='mainComp'>
       {
         play ? <StartGame toggle={toggleGamePlay} /> : <GamePlay />
       }
 
 
-    </>
+    </main>
   )
 }
 

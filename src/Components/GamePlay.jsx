@@ -4,6 +4,7 @@ import TotalScore from './TotalScore'
 import NumberSelector from './NumberSelector'
 import RollDice from './RollDice'
 import Rules from './Rules'
+import {FooterContainer} from './Common'
 
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -119,27 +120,6 @@ margin-top: 20px;
 
 `;
 
-const FooterContainer=styled.div`
-
-background-color: black;
-/* border: 1px solid red; */
-height: 10vh;
-margin-top: 5vh;
-margin-bottom: 1vh;
-display: grid;
-place-items: center;
-.footercontent{
-  color: white;
-  font-size: 90%;
-  width: 100vw;
-  text-align: center;
-  
-}
-
-@media (max-width:480px){
-margin-top: 5vh;
-}
-`;
 
 const Button =styled.button`
 display: flex;
